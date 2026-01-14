@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+
+
+@theme {
+  --color-primary: #26262b;
+  
+}
+
+
 @layer base {
   * {
     margin: 0;
@@ -11,6 +19,7 @@
     color: white;
     background: #26262b;
     scroll-behavior: smooth;
+    letter-spacing: 1px;
   }
   /* handle the Width of Container  */
   .container {
@@ -21,5 +30,11 @@
 }
 
 @layer components {
-  
+  nav {
+    & .nav-link{
+      @apply  text-sm font-medium text-white transition-colors hover:text-gray-300 tracking-[0.9px];
+    }
+  }
+
+
 }
