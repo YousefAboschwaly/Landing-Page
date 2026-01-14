@@ -1,8 +1,9 @@
+import Navbar from "./components/ui/Navbar";
 
 export default function App() {
   return (
-    <div className="">
-      
+    <div >
+        <Navbar/>
     </div>
   )
 }
