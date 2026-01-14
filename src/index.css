@@ -1,1 +1,25 @@
 @import "tailwindcss";
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Inter", sans-serif;
+    color: white;
+    background: #26262b;
+    scroll-behavior: smooth;
+  }
+  /* handle the Width of Container  */
+  .container {
+    @media (min-width: 1536px) {
+      max-width: 80rem !important; /* 1280px */
+    }
+  }
+}
+
+@layer components {
+  
+}
