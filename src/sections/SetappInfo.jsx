@@ -1,4 +1,3 @@
- 
 import { useState } from "react";
 import {
   ChevronLeft,
@@ -8,10 +7,8 @@ import {
   Twitter,
   Youtube,
 } from "lucide-react";
-import SetappCard from "../components/ui/setapp-info/Setappcard";
 import { testimonials } from "../data";
-
-
+import SetappCard from './../components/ui/setapp-info/SetappCard';
 
 export default function SetappInfo() {
   const [currentPage, setCurrentPage] = useState(0);
@@ -65,25 +62,23 @@ export default function SetappInfo() {
       </div>
 
       <div className=" mb-8 space-y-5">
-        
-                  {/* Navigation Arrows */}
-          <div className=" w-fit ml-auto  flex items-center gap-5 ">
-            <button
-              onClick={goToPrevious}
-              className="w-8 h-8 flex items-center justify-center text-gray-400 hover:text-gray-600 transition-colors"
-              aria-label="Previous testimonials"
-            >
-              <ChevronLeft className="w-8 h-8" strokeWidth={1.5} />
-            </button>
-            <button
-              onClick={goToNext}
-              className="w-8 h-8 flex items-center justify-center text-gray-400 hover:text-gray-600 transition-colors"
-              aria-label="Next testimonials"
-            >
-              <ChevronRight className="w-8 h-8" strokeWidth={1.5} />
-            </button>
-          </div>
-
+        {/* Navigation Arrows */}
+        <div className=" w-fit ml-auto  flex items-center gap-5 ">
+          <button
+            onClick={goToPrevious}
+            className="w-8 h-8 flex items-center justify-center text-gray-400 hover:text-gray-600 transition-colors"
+            aria-label="Previous testimonials"
+          >
+            <ChevronLeft className="w-8 h-8" strokeWidth={1.5} />
+          </button>
+          <button
+            onClick={goToNext}
+            className="w-8 h-8 flex items-center justify-center text-gray-400 hover:text-gray-600 transition-colors"
+            aria-label="Next testimonials"
+          >
+            <ChevronRight className="w-8 h-8" strokeWidth={1.5} />
+          </button>
+        </div>
 
         <div className="flex gap-5 items-center justify-center  transition-transform duration-500 ease-in-out">
           {getCurrentTestimonials().map((testimonial, index) => (
@@ -114,7 +109,6 @@ export default function SetappInfo() {
         ))}
       </div>
       <hr className="bg-gray-300 h-[3px] mt-4 w-full absolute right-0 left-0" />
-
     </section>
   );
 }
