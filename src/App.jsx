@@ -1,10 +1,14 @@
-import { Hero } from "./components/ui/header/HeaderContent";
-import Navbar from "./components/ui/header/Navbar";
+import Explore from "./sections/Explore";
+import Header from "./sections/Header";
+import Setapp from './sections/Setapp';
+
 
 export default function App() {
   return (
     <div>
       <Header/>
+      <Setapp/>
+      <Explore/>
     </div>
   );
 }
