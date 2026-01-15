@@ -1,5 +1,4 @@
-"use client";
-
+ 
 import { useState } from "react";
 import {
   ChevronLeft,
@@ -55,7 +54,7 @@ export default function SetappInfo() {
             <button className="w-12 h-12 rounded-full bg-[#1DA1F2] text-white flex items-center justify-center hover:opacity-90 transition-opacity">
               <Twitter />
             </button>
-            <button className="w-12 h-12 rounded-full bg-gradient-to-br from-[#f09433] via-[#e6683c] to-[#bc1888] text-white flex items-center justify-center hover:opacity-90 transition-opacity">
+            <button className="w-12 h-12 rounded-full bg-linear-to-br from-[#f09433] via-[#e6683c] to-[#bc1888] text-white flex items-center justify-center hover:opacity-90 transition-opacity">
               <Instagram />
             </button>
             <button className="w-12 h-12 rounded-full bg-[#FF0000] text-white flex items-center justify-center hover:opacity-90 transition-opacity">

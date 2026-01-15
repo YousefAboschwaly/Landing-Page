@@ -18,7 +18,7 @@ export default function Navbar() {
               </li>
             ))}
             <li className="nav-link border-l pl-7.5 border-white">
-              <img src="/en.png" alt="English Language" />
+              <img src="/images/en.png" alt="English Language" />
             </li>
 
             <li className="nav-link">
