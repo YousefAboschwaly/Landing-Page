@@ -2,48 +2,25 @@
 
 import { useState } from "react";
 import { ChevronLeft, ChevronRight, Play } from "lucide-react";
+import { Testimonial_Links } from "../data";
 
-const testimonials = [
-  {
-    quote:
-      "Musicians like Jason use Setapp to push the limits of their creativity, dancing through tasks for more time to play.",
-    name: "Jason Staczek",
-    image: "/images/image-2067.png",
-  },
-  {
-    quote:
-      "Setapp has transformed the way I work. Having access to so many powerful apps in one subscription is a game changer.",
-    name: "Sarah Mitchell",
-    image: "/images/image-2067.png",
-  },
-  {
-    quote:
-      "As a developer, I need reliable tools. Setapp delivers exactly what I need without the hassle of managing multiple licenses.",
-    name: "Michael Chen",
-    image: "/images/image-2067.png",
-  },
-  {
-    quote: "The convenience of having all my essential apps in one place has made my workflow incredibly efficient.",
-    name: "Emma Rodriguez",
-    image: "/images/image-2067.png",
-  },
-]
+
 export default function TestimonialCard() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handlePrev = () => {
     setCurrentIndex((prev) =>
-      prev === 0 ? testimonials.length - 1 : prev - 1
+      prev === 0 ? Testimonial_Links.length - 1 : prev - 1
     );
   };
 
   const handleNext = () => {
     setCurrentIndex((prev) =>
-      prev === testimonials.length - 1 ? 0 : prev + 1
+      prev === Testimonial_Links.length - 1 ? 0 : prev + 1
     );
   };
 
-  const testimonial = testimonials[currentIndex];
+  const testimonial = Testimonial_Links[currentIndex];
 
   return (
     <section className=" mx-12.5 -translate-y-[52%]">
@@ -104,7 +81,7 @@ export default function TestimonialCard() {
 
       {/* Pagination Dots */}
       <div className="flex items-center justify-center gap-6.25 mt-6">
-        {testimonials.map((_, index) => (
+        {Testimonial_Links.map((_, index) => (
           <button
             key={index}
             onClick={() => setCurrentIndex(index)}
