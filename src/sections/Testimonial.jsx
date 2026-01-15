@@ -23,7 +23,7 @@ export default function TestimonialCard() {
   const testimonial = Testimonial_Links[currentIndex];
 
   return (
-    <section className=" mx-12.5 -translate-y-[52%]">
+    <section className=" mx-12.5 -translate-y-[52%] ">
       <div className="bg-[#765070] relative rounded-[20px] ">
         <div className="flex flex-col md:flex-row justify-between items-center  ">
           {/* Left Content */}
