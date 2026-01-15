@@ -1,12 +1,8 @@
 @import "tailwindcss";
 
-
-
 @theme {
   --color-primary: #26262b;
-  
 }
-
 
 @layer base {
   * {
@@ -31,22 +27,20 @@
 
 @layer components {
   nav {
-    & .nav-link{
-      @apply  text-sm font-medium text-white transition-colors hover:text-gray-300 tracking-[0.9px];
+    & .nav-link {
+      @apply text-sm font-medium text-white transition-colors hover:text-gray-300 tracking-[0.9px];
     }
   }
 
-  .setapp{
-    & h2{
-      @apply font-semibold text-[36px] leading-[51.84px]
+  .setapp {
+    & h2 {
+      @apply font-semibold text-[36px] leading-[51.84px];
     }
-    & h3{
-      @apply font-semibold text-[26px] leading-[40.04px] tracking-[0px]
+    & h3 {
+      @apply font-semibold text-[26px] leading-[40.04px] tracking-[0px];
     }
-    & p{
-      @apply text-[18px] leading-[32.04px] tracking-[0px]
+    & p {
+      @apply text-[18px] leading-[32.04px] tracking-[0px];
     }
   }
-
-
 }

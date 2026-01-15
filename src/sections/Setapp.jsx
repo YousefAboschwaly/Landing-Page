@@ -14,7 +14,7 @@ export default function Setapp() {
 
         <div className="col-span-2 rounded-[20px] overflow-hidden bg-[#DF96AE] pt-15 ">
           <div className="flex items-center px-15 gap-8">
-            <img src="/icon-cmm.png.png" alt="laptop icon " />
+            <img src="/icon-cmm.svg" alt="laptop icon " />
             <div className=" text-primary">
               <h3>Keep your Mac clean</h3>
               <p>Remove junk, scan for malware, wipe email attachments</p>
