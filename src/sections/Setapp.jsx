@@ -21,7 +21,7 @@ export default function Setapp() {
             </div>
           </div>
           <img
-            src="/public/cmm-big@2x.png.png"
+            src="/cmm-big@2x.png.png"
             alt="smart-screen"
             className="px-9.25"
           />
@@ -29,10 +29,10 @@ export default function Setapp() {
 
         {/* Bottom left card */}
         <div className="rounded-[20px] bg-[#F4F0E4] pb-[59.54px] ">
-          <img src="/public/coderunner@2x.png.png" alt="code image " />
+          <img src="/coderunner@2x.png.png" alt="code image " />
 
           <div className="px-15 space-y-4.75 text-primary">
-            <img src="/public/icon-coderunner.svg" alt="code icon" />
+            <img src="/icon-coderunner.svg" alt="code icon" />
 
             <div>
               <h3>Write code</h3>
@@ -44,7 +44,7 @@ export default function Setapp() {
         {/* Bottom right card */}
         <div className="rounded-[20px] bg-[#384C75] pt-15 space-y-[52.46px]">
           <div className="px-15 space-y-4.75 ">
-            <img src="/public/icon-meeter.svg" alt="meeter icon" />
+            <img src="/icon-meeter.svg" alt="meeter icon" />
 
             <div>
               <h3>Join meetings in a click</h3>
@@ -52,7 +52,7 @@ export default function Setapp() {
             </div>
           </div>
 
-          <img src="/public/meeter@2x.png.png" alt="meeter image " />
+          <img src="/meeter@2x.png.png" alt="meeter image " />
         </div>
       </div>
 

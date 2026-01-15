@@ -5,7 +5,7 @@ export default function PricingCard() {
  <div className=" relative z-30 rounded-[20px]  h-[588px] px-19 pt-30  pb-23  bg-[#F5F5F5] mx-14 -translate-y-1/2 text-primary">
       <div className=" ">
         <div >
-          <img src='/public/setapp-logo.svg' />
+          <img src='/setapp-logo.svg' />
         </div>
         
         <h3 className="mb-[61px] mt-[21px] text-[46px] font-semibold tracking-[1.3px] leading-[59.8px] ">
