@@ -8,6 +8,7 @@ import {
   Youtube,
 } from "lucide-react";
 import { testimonials } from "../data";
+import SetappCard from "../components/ui/setapp-info/SetappCard";
 
 export default function SetappInfo() {
   const [currentPage, setCurrentPage] = useState(0);
