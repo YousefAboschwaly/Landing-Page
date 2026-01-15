@@ -17,6 +17,10 @@
     scroll-behavior: smooth;
     letter-spacing: 1px;
   }
+
+   h3 {
+      @apply font-semibold text-[26px] leading-[40.04px] tracking-[0px];
+    }
   /* handle the Width of Container  */
   .container {
     @media (min-width: 1536px) {
@@ -35,9 +39,6 @@
   .setapp {
     & h2 {
       @apply font-semibold text-[36px] leading-[51.84px];
-    }
-    & h3 {
-      @apply font-semibold text-[26px] leading-[40.04px] tracking-[0px];
     }
     & p {
       @apply text-[18px] leading-[32.04px] tracking-[0px];
