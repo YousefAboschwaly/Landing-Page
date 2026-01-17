@@ -10,11 +10,10 @@ export default function Navbar() {
       {/* Logo */}
       <a href="/" className="flex items-center">
         <img
-          src="/Frame.svg"
-          alt="Logo icon"
-          className="w-8 h-8 md:w-auto m
-          d:h-auto"
-        />
+           src="/Frame.svg"
+           alt="Logo icon"
+           className="w-8 h-8 md:w-auto md:h-auto"
+         />        
       </a>
 
       {/* Mobile Menu Button */}
@@ -25,7 +24,7 @@ export default function Navbar() {
         {isOpen ? <X size={24} /> : <Menu size={24} />}
       </button>
 
-{/* Navigation */}
+      {/* Navigation */}
       <div
         className={`
         fixed inset-0 bg-primary transition-transform duration-300 md:relative md:inset-auto md:bg-transparent md:translate-x-0
@@ -58,9 +57,8 @@ export default function Navbar() {
           </li>
 
           <li className="nav-link text-xl md:text-sm">
-            <a href="#">Sign In</a>
+            <a href="/sign-in">Sign In</a>
           </li>
-
           <li className="nav-link">
             <button className="px-8 md:px-5.75 py-3 md:py-1.5 rounded-md tracking-[1px] border border-white cursor-pointer hover:bg-white hover:text-black transition text-xl md:text-sm font-semibold">
               Try free

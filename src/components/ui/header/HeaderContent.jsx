@@ -56,7 +56,7 @@ export function HeaderContent() {
             />
           </div>
 
-          <h1 className=" text-[64px] font-bold leading-[67.84px] tracking-[1px] w-141.75 h-51 ">
+          <h1 className=" text-[50px]  md:text-[64px] font-bold leading-[67.84px] tracking-[1px] w-141.75 h-51 ">
             Dozens of apps.
             <br />
             One subscription.
