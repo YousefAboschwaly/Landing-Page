@@ -4,7 +4,7 @@ export function HeaderContent() {
   return (
     <section className="  py-16 md:py-24 lg:py-32">
       <div className=" relative overflow-hidden  flex items-center justify-center gap-14 w-full h-[595.59px]">
-        <div className="  pt-36  ">
+        <div className="hidden lg:block pt-36">
           {/* WORK WITH PICS - top left */}
           <Sticker
             id="pics"
@@ -86,7 +86,7 @@ export function HeaderContent() {
         </div>
 
         {/* FIX WIFI - top right */}
-        <div className=" pt-62 ">
+        <div className="hidden lg:block pt-62">
           <Sticker
             id="wifi"
             src="/images/wifi.svg"

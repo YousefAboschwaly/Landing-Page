@@ -1,5 +1,5 @@
-import { Hero } from "./components/ui/header/HeaderContent";
-import Navbar from "./components/ui/header/Navbar";
+import Header from "./sections/Header";
+
 
 export default function App() {
   return (
